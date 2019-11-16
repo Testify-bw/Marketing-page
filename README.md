@@ -1,2 +1,2 @@
-# Masrketing-page
+# Marketing-page
 Marketing page
