@@ -1,0 +1,318 @@
+.containersSetUp {
+  mix-blend-mode: normal;
+  border: 3px solid darkgray;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: white;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+header {
+  margin: 2% 0;
+  display: flex;
+  mix-blend-mode: normal;
+  border: 3px solid darkgray;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: white;
+  justify-content: space-between;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  margin: 0.5%;
+}
+header nav a {
+  font-size: 2rem;
+  background: white;
+  border: 2px solid darkgray;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+@media (max-width:800px) {
+  header nav a {
+    font-size: 1.8rem;
+  }
+}
+header img {
+  margin: 1%;
+  width: 10%;
+}
+@media (max-width:800px) {
+  header img {
+    width: 20%;
+  }
+}
+.heroimg {
+  display: flex;
+  justify-content: center;
+}
+.heroimg .holder {
+  mix-blend-mode: normal;
+  border: 3px solid darkgray;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: white;
+  width: 90%;
+  height: 40vh;
+}
+.heroimg img {
+  height: 100%;
+  width: 100%;
+  border-radius: 13px;
+}
+.intermediate {
+  mix-blend-mode: normal;
+  border: 3px solid darkgray;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: white;
+  background: #1864ab;
+  margin: 2% 0;
+  display: flex;
+}
+@media (max-width:800px) {
+  .intermediate {
+    flex-direction: column;
+  }
+}
+.intermediate .smallcontainer {
+  text-align: center;
+  margin: 1%;
+  font-size: 2rem;
+  width: 30%;
+  height: 100%;
+  mix-blend-mode: normal;
+  border: 3px solid darkgray;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: white;
+  background: lightblue;
+}
+@media (max-width:800px) {
+  .intermediate .smallcontainer {
+    width: 100%;
+  }
+}
+.intermediate .holders {
+  padding: 1%;
+}
+.intermediate .text-container {
+  mix-blend-mode: normal;
+  border: 3px solid darkgray;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: white;
+  background: lightblue;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.divided {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width:800px) {
+  .divided {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.divided .division {
+  text-align: center;
+  width: 30%;
+}
+@media (max-width:800px) {
+  .divided .division {
+    width: 80%;
+  }
+}
+.divided img {
+  margin: 3% 0;
+  border: 3px solid #7e685a;
+  border-radius: 25px;
+  width: 70%;
+}
+.divided button {
+  width: 70%;
+  font-size: 1.5rem;
+  background: white;
+  border: 2px solid darkgray;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center;
+}
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  mix-blend-mode: normal;
+  border: 3px solid darkgray;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: white;
+  background-color: #1864ab;
+}
+footer button {
+  margin: 1%;
+  font-size: 1.5rem;
+  background: white;
+  border: 2px solid darkgray;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center;
+  background-color: lightblue;
+}
+/* Founders-Page styling */
+.heroimg2 {
+  padding-bottom: 2%;
+}
+.divided2 {
+  flex-wrap: wrap;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  font-size: 10px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+@media (max-width:800px) {
+  body {
+    width: 100%;
+  }
+}

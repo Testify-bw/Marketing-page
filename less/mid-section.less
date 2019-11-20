@@ -1,0 +1,94 @@
+.heroimg {
+  display: flex;
+  justify-content: center;
+  .holder {
+    .containersSetUp();
+    width: 90%;
+    height: 40vh;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 13px;
+  }
+}
+
+.intermediate {
+  .containersSetUp();
+  background: #1864ab;
+  margin: 2% 0;
+  display: flex;
+  @media @tablet{
+    flex-direction: column;
+  }
+  .smallcontainer {
+    text-align: center;
+    margin: 1%;
+    font-size: 2rem;
+    width: 30%;
+    height: 100%;
+    @media @tablet {
+      width: 100%;
+    }
+    .containersSetUp();
+    background: lightblue;
+  }
+  .holders {
+    padding: 1%;
+  }
+  .text-container {
+    .containersSetUp();
+    background: lightblue;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.divided {
+  display: flex;
+  justify-content: space-around;
+  @media @tablet {
+    flex-direction: column;
+    align-items: center;
+  }
+  .division {
+    text-align: center;
+    width: 30%;
+    @media @tablet {
+      width: 80%;
+    }
+  }
+  img {
+    margin: 3% 0;
+    border: 3px solid #7e685a;
+    border-radius: 25px;
+    width: 70%;
+  }
+  button {
+    width: 70%;
+    .button-styles(25px, 1.5rem);
+  }
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  .containersSetUp();
+  background-color: #1864ab;
+  button {
+    margin: 1%;
+    .button-styles(25px, 1.5rem);
+    background-color: lightblue;
+  }
+}
+
+
+/* Founders-Page styling */
+
+.heroimg2{
+  padding-bottom:2%; 
+}
+.divided2{
+  flex-wrap: wrap;
+}

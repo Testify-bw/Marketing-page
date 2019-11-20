@@ -1,0 +1,35 @@
+header {
+  margin: 2% 0;
+  display: flex;
+  .containersSetUp();
+  justify-content: space-between;
+  
+  nav {
+    display: flex;
+    align-items: center;
+    margin: 0.5%;
+    a {
+      .button-styles(10px, 2rem);
+      text-decoration: none;
+      color: black;
+      width: 100%;
+    }
+    @media @tablet{
+        a{
+            font-size:1.8rem;
+        }
+    }
+  }
+
+  img {
+    margin: 1%;
+    width: 10%;
+    @media @tablet{
+        width:20%;
+    }
+  }
+
+
+}
+
+
