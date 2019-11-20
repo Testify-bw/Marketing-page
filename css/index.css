@@ -3,7 +3,7 @@
   border: 3px solid #7E685A;
   box-sizing: border-box;
   border-radius: 15px;
-  background-color: #C2CAD0;
+  background-color: white;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -135,12 +135,34 @@ table {
 }
 header {
   margin: 2% 0;
-  height: 10vh;
+  display: flex;
   mix-blend-mode: normal;
   border: 3px solid #7E685A;
   box-sizing: border-box;
   border-radius: 15px;
-  background-color: #C2CAD0;
+  background-color: white;
+  justify-content: space-between;
+}
+header nav {
+  display: flex;
+  align-items: flex-end;
+  margin: 0.5%;
+}
+header nav button {
+  font-size: 1.5rem;
+  background: white;
+  border: 2px solid #7E685A;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  height: 50%;
+}
+header img {
+  width: 10%;
+  border-radius: 15px;
 }
 .heroimg {
   display: flex;
@@ -151,19 +173,21 @@ header {
   border: 3px solid #7E685A;
   box-sizing: border-box;
   border-radius: 15px;
-  background-color: #C2CAD0;
+  background-color: white;
   width: 90%;
+  height: 40vh;
 }
 .heroimg img {
+  height: 100%;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 13px;
 }
 .intermediate {
   mix-blend-mode: normal;
   border: 3px solid #7E685A;
   box-sizing: border-box;
   border-radius: 15px;
-  background-color: #C2CAD0;
+  background-color: white;
   margin: 2% 0;
   display: flex;
 }
@@ -177,7 +201,7 @@ header {
   border: 3px solid #7E685A;
   box-sizing: border-box;
   border-radius: 15px;
-  background-color: #C2CAD0;
+  background-color: white;
 }
 .intermediate .holders {
   padding: 1%;
@@ -187,22 +211,56 @@ header {
   border: 3px solid #7E685A;
   box-sizing: border-box;
   border-radius: 15px;
-  background-color: #C2CAD0;
+  background-color: white;
   font-size: 1.5rem;
+  text-align: center;
 }
 .divided {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.divided h2 {
-  font-size: 2rem ;
+.divided .division {
+  text-align: center;
+  width: 30%;
 }
-* {
-  outline: 1px solid red;
+.divided img {
+  margin: 3% 0;
+  border: 3px solid #7E685A;
+  border-radius: 25px;
+  width: 70%;
+}
+.divided button {
+  width: 70%;
+  font-size: 1.5rem;
+  background: white;
+  border: 2px solid #7E685A;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center;
+}
+footer {
+  display: flex;
+  align-items: flex-end;
+  mix-blend-mode: normal;
+  border: 3px solid #7E685A;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: white;
+}
+footer button {
+  font-size: 1.5rem;
+  background: white;
+  border: 2px solid #7E685A;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center;
 }
 body {
   font-size: 10px;
   width: 80%;
   margin: 0 auto;
-  background-color: #E7757D;
+  background-color: lightgray;
 }

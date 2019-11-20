@@ -4,11 +4,13 @@
   .holder{
     .containersSetUp();
    width: 90%;
+   height:40vh;
 
   }
   img{
+    height:100%;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 13px;
     
   }
 }
@@ -33,7 +35,7 @@
   .text-container{
     .containersSetUp();
     font-size: 1.5rem;
-    
+    text-align: center;
     
   }
 }
@@ -41,9 +43,31 @@
 .divided{
   
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 
-  h2{
-    font-size:2rem ;
+  .division{
+    text-align: center;
+    width:30%;
+  }
+  img{
+    margin:3% 0;
+    border: 3px solid #7E685A;
+    border-radius: 25px;
+    width:70%;
+
+  }
+  button{
+    width:70%;
+    .button-styles(25px,1.5rem);
+  }
+}
+
+footer{
+  display: flex;
+  align-items: flex-end;
+  .containersSetUp();
+  button{
+    .button-styles(25px,1.5rem);
   }
 }
