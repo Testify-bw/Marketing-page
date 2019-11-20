@@ -1,6 +1,6 @@
 .containersSetUp {
   mix-blend-mode: normal;
-  border: 3px solid #7E685A;
+  border: 3px solid darkgray;
   box-sizing: border-box;
   border-radius: 15px;
   background-color: white;
@@ -137,7 +137,7 @@ header {
   margin: 2% 0;
   display: flex;
   mix-blend-mode: normal;
-  border: 3px solid #7E685A;
+  border: 3px solid darkgray;
   box-sizing: border-box;
   border-radius: 15px;
   background-color: white;
@@ -145,24 +145,24 @@ header {
 }
 header nav {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   margin: 0.5%;
 }
-header nav button {
-  font-size: 1.5rem;
+header nav a {
+  font-size: 2rem;
   background: white;
-  border: 2px solid #7E685A;
+  border: 2px solid darkgray;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
+  border-radius: 10px;
   text-align: center;
   text-decoration: none;
   color: black;
-  height: 50%;
+  width: 100%;
 }
 header img {
+  margin: 1%;
   width: 10%;
-  border-radius: 15px;
 }
 .heroimg {
   display: flex;
@@ -170,7 +170,7 @@ header img {
 }
 .heroimg .holder {
   mix-blend-mode: normal;
-  border: 3px solid #7E685A;
+  border: 3px solid darkgray;
   box-sizing: border-box;
   border-radius: 15px;
   background-color: white;
@@ -184,10 +184,11 @@ header img {
 }
 .intermediate {
   mix-blend-mode: normal;
-  border: 3px solid #7E685A;
+  border: 3px solid darkgray;
   box-sizing: border-box;
   border-radius: 15px;
   background-color: white;
+  background: #1864ab;
   margin: 2% 0;
   display: flex;
 }
@@ -198,20 +199,22 @@ header img {
   width: 30%;
   height: 100%;
   mix-blend-mode: normal;
-  border: 3px solid #7E685A;
+  border: 3px solid darkgray;
   box-sizing: border-box;
   border-radius: 15px;
   background-color: white;
+  background: lightblue;
 }
 .intermediate .holders {
   padding: 1%;
 }
 .intermediate .text-container {
   mix-blend-mode: normal;
-  border: 3px solid #7E685A;
+  border: 3px solid darkgray;
   box-sizing: border-box;
   border-radius: 15px;
   background-color: white;
+  background: lightblue;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -234,25 +237,27 @@ header img {
   width: 70%;
   font-size: 1.5rem;
   background: white;
-  border: 2px solid #7E685A;
+  border: 2px solid darkgray;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   text-align: center;
 }
 footer {
+  height: 10vh;
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;
   mix-blend-mode: normal;
-  border: 3px solid #7E685A;
+  border: 3px solid darkgray;
   box-sizing: border-box;
   border-radius: 15px;
   background-color: white;
 }
 footer button {
+  margin: 1%;
   font-size: 1.5rem;
   background: white;
-  border: 2px solid #7E685A;
+  border: 2px solid darkgray;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;

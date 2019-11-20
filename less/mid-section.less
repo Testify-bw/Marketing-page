@@ -17,6 +17,7 @@
 
 .intermediate{
   .containersSetUp();
+  background: #1864ab;
   margin: 2% 0;
   display: flex;
   .smallcontainer{
@@ -26,6 +27,7 @@
     width:30%;
     height:100%;
     .containersSetUp();
+    background: lightblue;
     
   }
   .holders{
@@ -34,6 +36,7 @@
   }
   .text-container{
     .containersSetUp();
+    background: lightblue;
     font-size: 1.5rem;
     text-align: center;
     
@@ -64,10 +67,12 @@
 }
 
 footer{
+  height:10vh;
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;
   .containersSetUp();
   button{
+    margin:1%;
     .button-styles(25px,1.5rem);
   }
 }
