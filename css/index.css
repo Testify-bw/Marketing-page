@@ -295,6 +295,13 @@ footer button {
   text-align: center;
   background-color: lightblue;
 }
+/* Founders-Page styling */
+.heroimg2 {
+  padding-bottom: 2%;
+}
+.divided2 {
+  flex-wrap: wrap;
+}
 p {
   font-family: 'Roboto', sans-serif;
 }
