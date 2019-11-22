@@ -18,14 +18,14 @@
   background: #1864ab;
   margin: 2% 0;
   display: flex;
-  @media @tablet{
+  @media @tablet {
     flex-direction: column;
   }
   .smallcontainer {
     text-align: center;
     margin: 1%;
-    font-size: 2rem;
-    width: 30%;
+    font-size: 1.8rem;
+    width: 50%;
     height: 100%;
     @media @tablet {
       width: 100%;
@@ -39,8 +39,17 @@
   .text-container {
     .containersSetUp();
     background: lightblue;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
+  }
+  .join{
+    text-align: center;
+    button{
+      margin-top:1%;
+    .button-styles(20px,2rem);
+    background-color: lightgreen;
+    width:50%;
+    }
   }
 }
 
@@ -80,5 +89,46 @@ footer {
     margin: 1%;
     .button-styles(25px, 1.5rem);
     background-color: lightblue;
+  }
+}
+
+/* founders-page styling*/
+
+.founders-container {
+  @media @tablet {
+    width: 100%;
+  }
+}
+
+.holder2 {
+  margin-bottom: 2%;
+}
+
+.divided2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .founders {
+    text-align: center;
+    width: 30%;
+
+    @media @phone {
+      width: 50%;
+    }
+  }
+  .logo {
+    width: 29%;
+  }
+
+  img {
+    margin: 3% 0;
+    border: 3px solid #7e685a;
+    border-radius: 25px;
+    width: 70%;
+  }
+  button {
+    width: 70%;
+    .button-styles(25px, 1.2rem);
   }
 }
