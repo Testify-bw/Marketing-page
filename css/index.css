@@ -303,6 +303,7 @@ footer button {
   text-align: center;
   background-color: lightblue;
 }
+
 /* founders-page styling*/
 @media (max-width:800px) {
   .founders-container {
@@ -345,6 +346,7 @@ footer button {
   border-radius: 25px;
   text-align: center;
 }
+
 p {
   font-family: "Roboto", sans-serif;
 }
